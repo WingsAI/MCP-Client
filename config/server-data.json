@@ -16,6 +16,14 @@
                 "type": "http",
                 "baseUrl": "https://server.smithery.ai/@smithery-ai/national-weather-service/mcp?api_key=c91d8e43-1e2e-4f9b-8714-29fbd96ab77d&profile=decisive-slug-Phc6Np"
             }
+        },
+        {
+            "name": "@goldk3y/google-calendar-mcp",
+            "description": "Enable seamless interaction with Google Calendar through a secure and comprehensive MCP server. Manage calendars and events with full support for OAuth2 authentication, event details, and search capabilities. Simplify calendar operations and event scheduling within your applications.",
+            "transport": {
+                "type": "http",
+                "baseUrl": "https://server.smithery.ai/@goldk3y/google-calendar-mcp/mcp?api_key=c91d8e43-1e2e-4f9b-8714-29fbd96ab77d&profile=decisive-slug-Phc6Np"
+            }
         }
     ]
 }
