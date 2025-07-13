@@ -125,7 +125,7 @@ app.get("/health", (request, reply) => {
   reply.status(200).send({ status: "ok", timestamp: new Date() });
 });
 
-app.listen({ port: 3000 }, (err, address) => {
+app.listen({ port: 3000, host: "0.0.0.0" }, (err, address) => {
   if (err) {
     console.error("Error starting server:", err);
     process.exit(1);
